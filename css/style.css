@@ -1,0 +1,236 @@
+
+body {
+    background-color: #dedede;
+    
+    width: 115%;
+    margin:auto;
+}
+
+h1 {
+    
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+    margin-left: 32%;
+    
+}
+
+h2 {
+    
+    font-family:Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 25%;
+    
+}
+
+
+a {
+    color: #000;
+    font-family:Arial, sans-serif;
+}
+
+
+main ul {
+
+    width: 80%;   
+    
+}
+
+
+main p{
+
+  text-align:center;
+  width: 80%;
+  font-size: 110%;
+  margin-left: 2%;
+}
+
+div img{
+    width:90%;
+    height: 95%;
+    display:block;
+    margin-left: 2%;
+    border-radius: 15%;
+    border: solid blue;
+}
+
+
+
+div{
+  display: block;
+  width: 85%;
+  margin: 5px;
+  padding: 2px;
+  justify-content:space-evenly;
+  margin:2%;
+}
+
+
+div p {
+
+
+    text-align: center;
+
+}
+
+
+@media all and (min-width:772px) {
+
+    div {
+
+    width: 45vw;
+    display: inline-block;
+   
+
+
+    }
+
+    div img {
+
+        max-height: 30vh;
+        
+
+    }
+
+        h1 {
+    
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+    margin-left: 35%;
+    
+}
+
+
+    h2 {
+    
+    font-family:Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 29%;
+    
+}
+    
+}
+
+@media all and (min-width:998px) {
+
+
+     div {
+
+    width: 30vw;
+    display: inline-block;
+
+
+    }
+
+
+    h1 {
+    
+    font-family:Arial, sans-serif;
+    font-size: 32px;
+    margin-left: 40%;
+    
+}
+
+
+    h2 {
+    
+    font-family:Arial, sans-serif;
+    font-size: 22px;
+    margin-left: 37%;
+    
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+main {
+    border: 5px #000 solid;
+    margin: 10px;
+}
+ */
+/* 
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+ */
+/* img{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+} */
+
+/* .child {
+    position: relative;
+    display: inline-block;
+    border: 5px black solid;
+    margin: 5px;
+    border-radius: 5px;
+} */
+
+/* 
+
+
+} */
+/* 
+.button {
+    display: inline-block;
+    border: 2px solid #000;
+    padding: 5px;
+    border-radius: 25px;
+}
+ */
+/* 
+.button:hover {
+    background-color:#fff;
+} */
+
+/* 
+footer {
+    display: flex;
+    justify-content: center;
+} */
+
+/* 
+header {
+    border-radius: 5px;
+    border: 5px #000 solid;
+    margin: 10px;
+} */
+
+/* 
+.label {
+    display: none;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+} */
+/* 
+.child:hover .label {
+    display: block;
+} */
